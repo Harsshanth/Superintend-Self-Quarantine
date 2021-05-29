@@ -1,0 +1,30 @@
+#pres_head{
+    text-align: center;
+ color: blue;
+ font-size: xx-large;
+ 
+
+
+}
+body{
+    background-image: url(/Hospital\ Side/img/pres2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#prescription{
+   text-align: center;
+   margin: 1cm;
+   border: 2px solid black;
+   
+}
+#pres{
+    font-size: larger;
+    
+}
+#btn{
+    background-color: rgb(65, 88, 214);
+    width:100px;
+    height:40px;
+}

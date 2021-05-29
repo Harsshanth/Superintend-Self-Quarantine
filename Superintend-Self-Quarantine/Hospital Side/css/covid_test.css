@@ -1,0 +1,49 @@
+
+.container{
+    padding: 50px;
+    text-align: left;
+    outline: 2px solid #0e0d09;
+    outline-offset: -20px;
+  
+}
+
+div {
+    margin-bottom: 30px;
+}
+label {
+    display: inline-block;
+    width: 550px;
+}
+    
+input {
+    padding: 10px 50px;
+    text-align: center;
+}
+
+body{
+    background-image: url(/Hospital\ Side/img/pres2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: larger;
+  
+}
+h1{
+    font-size: xx-large;
+    text-align: center;
+}
+#set{
+   width: 27cm;
+   height: 1cm;
+   justify-items: center;
+
+  background-color: #0e0d09;
+  color: white;
+}
+table.td{
+    font-weight: bold;
+}
+tr.time_slot{
+    width:4cm;
+}
+

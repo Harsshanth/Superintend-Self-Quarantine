@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>Admin</title>
+    <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <h3>Entry</h3>
+                    </div>
+                </div>
+                <form action="insert.php" method="POST">
+                    <div class="face face2">
+                        <div class="content">
+                            <div class="main">
+                                <input type="text" id="aadhar_entry" name="aadhar_entry" placeholder="Aadhaar Number">
+                                <button class="btn">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <i class="fas fa-gradution-cap"></i>
+                        <h3>DELETE</h3>
+                    </div>
+                </div>
+                
+                    <div class="face face2">
+                        <div class="content">
+                            <div class="main">
+                            <form action="delete.php" method="POST">
+                                <input type="text" id="aadhar_exit" name="aadhar_exit" placeholder="Aadhaar Number">
+                                <button class="btn" >Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+
+           
+        </div>
+    </body>
+</html>

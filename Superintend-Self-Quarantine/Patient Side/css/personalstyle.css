@@ -1,0 +1,54 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: azure;
+}
+
+h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.container{
+    padding: 50px;
+    text-align: left;
+    outline: 2px solid #0e0d09;
+    outline-offset: -20px;
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+label {
+    display: inline-block;
+    width: 550px;
+}
+    
+input {
+    padding: 10px 200px;
+    text-align: center;
+}
+
+button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #000000;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: azure;
+    font-size: 14px;
+    cursor: pointer;
+}
+    
+.submit:hover {
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    box-shadow: 10px 12px 15px rgba(0, 0, 0, .3);
+}
+

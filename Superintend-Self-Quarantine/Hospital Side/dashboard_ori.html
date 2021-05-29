@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" contents="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/dashboardstyle.css">
+        <title> Dashboard </title>
+        </meta>
+    </head>
+
+    <body id="body-pd">
+        <div class="navigation" id="navbar">
+            <nav class="nav">
+                <div>
+                    <div class="nav-symbol">
+                        <ion-icon name="menu" class="nav_toggle" id="nav-toggle"></ion-icon>
+                        <a href="#" class="nav_logo">Dashboard</a>
+                    </div>
+    
+                    <div class="nav-list">
+                        <div class="nav_link active collapse">
+                            <ion-icon name="people" class="nav_icon"></ion-icon>
+                            <span class="nav_name">Patient Details</span>
+
+                            <ion-icon name="chevron-down-outline" class="collapse_link"></ion-icon>
+
+                            <ul class="collapse_menu">
+                                <a href="#" class="collapse_sublink"  onclick="info()">
+                                    <ion-icon name="person-outline" class="nav_icon"></ion-icon> Personal info
+                                </a>
+                                <a href="#" class="collapse_sublink" onclick="health()" >
+                                    <ion-icon name="medkit-outline" class="nav_icon" ></ion-icon> Health Status
+                                </a>
+                            
+                            
+                            </ul>
+                        </div>
+                       
+                        <a href="#" class="nav_link">
+                            <ion-icon name="medical" class="nav_icon"></ion-icon>
+                            <span class="nav_name" onclick="prescription()">Prescriptions</span>
+                        </a>
+                        <a href="#" class="nav_link">
+                            <ion-icon name="book-outline" class="nav_icon"></ion-icon>
+                            <span class="nav_name"  onclick="covid_test()">Covid Test</span>
+                            
+                        </a>
+    
+                        <!--<a href="#" class="nav_link">
+                            <ion-icon name="accessibility" class="nav_icon"></ion-icon>
+                            <span class="nav_name">Doctor's Guidance</span>
+                        </a>
+    
+                        <div class="nav_link collapse">
+                            <ion-icon name="help-circle" class="nav_icon"></ion-icon>
+                            <span class="nav_name">Help</span>
+
+                            <ion-icon name="chevron-down-outline" class="collapse_link"></ion-icon>
+
+                            <ul class="collapse_menu">
+                                <a href="#" class="collapse_sublink">
+                                    <ion-icon name="call-outline" class="nav_icon"></ion-icon> contact
+                                </a>
+                                <a href="#" class="collapse_sublink">
+                                    <ion-icon name="book-outline" class="nav_icon"></ion-icon> Covid Test
+                                </a>
+                            </ul>
+                        </div>-->
+                    </div>
+                </div>
+
+                <a href="doctor_login.html" class="nav_link">
+                    <ion-icon name="log-out" class="nav_icon"></ion-icon>
+                    <span class="nav_name">Logout</span>
+                </a>
+
+            </nav>
+        </div>
+
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+        <script src="dashboardjs.js"></script>
+
+    </body>
+</html>

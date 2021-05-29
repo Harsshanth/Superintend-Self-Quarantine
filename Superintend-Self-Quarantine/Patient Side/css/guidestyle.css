@@ -1,0 +1,28 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(/Patient\ Side/images/guide.png);
+    background-size:cover;
+    background-position: auto;
+    height: 100vh;
+}
+
+p{
+    display: grid;
+    padding: 35px;
+    text-align: left;
+    font-style:normal;
+    font-size: 15px;
+    outline: 2px solid #0e0d0963;
+    outline-offset: -10px;
+    color: rgba(0, 0, 0, 0.616);
+}
+
+h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.747);
+}
+
+h4{
+    text-align: center;
+}

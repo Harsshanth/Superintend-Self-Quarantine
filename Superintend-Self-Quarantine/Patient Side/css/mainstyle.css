@@ -1,0 +1,7 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(/Patient\ Side/images/dashboard.jpg);
+    background-size:cover;
+    background-position: auto;
+    height: 100vh;
+}

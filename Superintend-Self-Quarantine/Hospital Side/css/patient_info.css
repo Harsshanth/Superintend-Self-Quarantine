@@ -1,0 +1,16 @@
+#info{
+    text-align: center;
+    color: rgb(39, 11, 138);
+    font-size: xx-large;
+    text-align: center; 
+    margin:auto;
+    width: 28%;
+    border: 3px solid green;
+    padding: 15px;
+}
+body{
+    background-image: url(/hospital\ Side/img/medical-record-1.jpg);
+    background-size: cover;
+    text-align: center;
+    font-size: xx-large; 
+}

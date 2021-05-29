@@ -1,0 +1,26 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: azure;
+}
+
+h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+    color: black;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+
+h3{
+    text-transform: uppercase;
+    color: black;
+}
+
+#medicine {
+    font-size: 40px;
+}

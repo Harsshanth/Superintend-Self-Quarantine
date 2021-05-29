@@ -1,0 +1,46 @@
+#patient_head{
+  text-align: center; 
+  margin:auto;
+  width: 28%;
+  border: 3px solid green;
+  padding: 15px;
+}
+body{
+  background-image:url(/Hospital\ Side/img/medical-record-1.jpg);
+  background-repeat: repeat; 
+  background-position: center;
+  background-size: cover;
+}
+#container{
+    text-align: center;
+    padding: 2cm;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+#container tr:nth-child(odd){ 
+		background: #e1e8f1;
+	}
+#container tr:nth-child(even){
+		background: #85b4f5;
+	}
+#head{
+        background-color:rgba(74, 12, 219, 0.973);
+    }
+    #ok{
+      width: 5%;
+      height: 3%;
+      padding: 0.5cm;
+      background-color: blue;
+     
+      text-align: center;
+    }
+#show_info{
+  background-color: #447fd1;
+}
+#title{
+  color:blue;
+}
+  
+

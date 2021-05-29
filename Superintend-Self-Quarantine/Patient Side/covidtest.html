@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script> 
+        $(function(){
+        $("#header").load("dashboard.html"); 
+        });
+    </script> 
+    <meta charset="UTF-8">
+    <title>Covid Test</title>
+    <link rel="stylesheet" href="/Patient Side/css/covidteststyle.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,900" rel="stylesheet">
+</head>
+
+<body>
+
+    <header id="header"></header>
+    <div class="container">
+        <div class="container-time">
+            <h2 class="heading">Covid Test</h2>
+           
+            <h4 class="heading-phone">Call Info: (123) 45-45-456</h4>
+        
+            <form action = "covid.php" id="Form" method="POST">
+
+                <div class="form-field">
+                    <p> <b> Date </b></p>
+                    <input type="date" name="date">
+                </div>
+
+                <div class="form-field">
+                    <p> <b> Pincode </b></p>
+                    <input type="text" placeholder="Pincode" name="testpin">
+
+                    
+                </div>
+
+                
+
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+    
+    
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>

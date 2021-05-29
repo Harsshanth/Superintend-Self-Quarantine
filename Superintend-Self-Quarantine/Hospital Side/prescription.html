@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <link rel="stylesheet" href="css/prescription.css">
+      <meta charset="UTF-8">
+      <meta name="viewport" contents="width=device-width, initial-scale=1.0">
+      <script
+      
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous">
+  </script>
+  <script> 
+      $(function(){
+      $("#header").load("dashboard_ori.html"); 
+      });
+  </script>
+
+        <title>Prescription</title>
+        <link rel="stylesheet" href="css/prescription.css">        
+    </head>
+   
+<body >
+    
+
+
+<header id="header"></header>
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+
+        <h1 id="pres_head" style="text-align: center;">Prescription</h1><br>
+
+       <p id="title"><h2>Write your prescription down:</h2>
+        <form action="prescription.php" method="POST">
+          <!-- <input type="text" name="aadhar" id="aadhar" style="padding: 1cm;  text-align: center;" >--></p>
+        <input type="text" name="prescription" id="prescription" style="padding: 1.5cm;  text-align: center;" ></p>
+        
+       <button id="btn"  >Add</button>
+      
+    </form>
+       <ul id="pres"></ul>
+    
+    </body>
+</html>
